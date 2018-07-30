@@ -23,7 +23,6 @@ RUN mkdir /neopragma
 COPY * /neopragma/
 
 RUN mkdir /neopragma/src
-COPY src /neopragma/src
 
 RUN mkdir /neopragma/upload
 COPY upload /neopragma/upload
@@ -31,4 +30,5 @@ COPY upload /neopragma/upload
 
 WORKDIR /neopragma
 
+VOLUME ["/neopragma/src"]
 CMD ./run-examples
