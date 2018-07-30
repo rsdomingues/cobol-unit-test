@@ -4,6 +4,74 @@
 #
 #================================================================================
 clear
+
+echo 'Neopragma'
+echo 'Compiling all examples'
+echo
+echo 'CALLDEMO'
+./compile CALLDEMO
+
+echo 'CARD1'
+./compile CARD1
+
+echo 'CARD2'
+./compile CARD2
+
+echo 'CARD2D'
+./compile CARD2D
+
+echo 'CARD3'
+./compile CARD3
+
+echo 'CARD3D'
+./compile CARD3D
+
+echo 'CICSDEMO'
+./compile CICSDEMO
+
+echo 'CICSDRIV'
+./compile CICSDRIV
+
+echo 'CONVER2'
+./compile CONVER2
+
+echo 'CONVERT'
+./compile CONVERT
+
+echo 'FILEDEMO'
+./compile FILEDEMO
+
+echo 'FIZZBUZZ'
+./compile FIZZBUZZ
+
+echo 'INVDATE'
+./compile INVDATE
+
+echo 'MOCKDEMO'
+./compile MOCKDEMO
+
+echo 'PARADEMO'
+./compile PARADEMO
+
+echo 'SAMPLE'
+./compile SAMPLE
+
+echo 'SUBPROG'
+./compile SUBPROG
+
+echo 'SUBPROGD'
+./compile SUBPROGD
+
+echo 'VIZZBUZZ'
+./compile VIZZBUZZ
+
+echo 'ZUTZCPC'
+./compile ZUTZCPC 
+
+echo 'Executing Unit test'
+echo
+echo
+echo
 echo 'SAMPLE'
 echo 'This example demonstrates a minimal unit test setup'
 echo
@@ -14,13 +82,6 @@ echo 'This example demonstrates a unit test suite for'
 echo 'an implementation of FizzBuzz'
 echo
 ./run-ut FIZZBUZC FIZZBUZZ FIZZBUZT
-
-#echo 'VIZZBUZZ'
-#echo 'This example is the same as the FIZZBUZZ example,'
-#echo 'but the program under test is written with the'
-#echo '"classic" Cobol style (period after every statement)'
-#echo
-#./run-ut FIZZBUZC VIZZBUZZ FIZZBUZT
 
 echo 'CONVERT'
 echo 'This example demonstrates unit tests for a batch program'
